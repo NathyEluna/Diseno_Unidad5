@@ -1,0 +1,35 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+#primero {
+  padding: 20px;
+}
+#primero .destacado {
+  padding: 6px;
+  font-size: 1.6rem;
+  text-align: center;
+  color: #FF8000;
+}
+
+#segundo {
+  padding: 20px;
+}
+#segundo .destacado {
+  padding: 5px;
+  font-size: 1.4rem;
+  color: #2E5F64;
+  text-decoration: underline;
+}
+#segundo p:not(.destacado)::first-line {
+  font-style: italic;
+}
+#segundo #parrafos {
+  text-align: right;
+}
+
+/*# sourceMappingURL=screen.css.map */

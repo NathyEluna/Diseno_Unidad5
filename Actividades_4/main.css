@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .bg-amarillo{
+        background-color: rgb(236, 201, 75);
+    }
+    .bg-verde{
+        background-color: rgb(72, 187, 120);
+    }
+}
+
+@theme{
+    --breakpoint-max-sm:700px;
+    --breakpoint-max-md:950px;
+}

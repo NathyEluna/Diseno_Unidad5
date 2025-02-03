@@ -5,3 +5,33 @@
     list-style: none;
     text-decoration: none;
 }
+
+$pad: 20px;
+$color-primero: #FF8000;
+$color-segundo: #2E5F64;
+
+#primero {
+  padding: $pad;
+  .destacado{
+    padding: 6px;
+    font-size: 1.6rem;
+    text-align: center;
+    color: $color-primero;
+  }
+}
+
+#segundo{
+  padding: $pad;
+  .destacado{
+    padding: 5px;
+    font-size: 1.4rem;
+    color: $color-segundo;
+    text-decoration: underline;
+  }
+  p:not(.destacado)::first-line{
+   font-style: italic; 
+  }
+  #parrafos{
+    text-align: right;
+  }
+}
