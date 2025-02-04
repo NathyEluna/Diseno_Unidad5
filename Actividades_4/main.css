@@ -10,8 +10,3 @@
         background-color: rgb(72, 187, 120);
     }
 }
-
-@theme{
-    --breakpoint-max-sm:700px;
-    --breakpoint-max-md:950px;
-}
